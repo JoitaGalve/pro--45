@@ -115,7 +115,10 @@ function restart() {
   bg.velocityX = -2
   gm.visible = false
   r.visible = false
+  score = 0
+  obstaclesGroup.destroyEach()
 
+  
 }
 function spawnObstacles(){
  if (frameCount % 300 === 0){
